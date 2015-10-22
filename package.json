@@ -1,8 +1,10 @@
 {
   "dependencies": {
     "moment": "2.3.x",
+    "stylus": "^0.52.4",
+    "typogr": "0.5.x",
     "underscore": "1.4.x",
-    "typogr": "0.5.x"
+    "zepto": "0.0.4"
   },
   "private": "true"
 }

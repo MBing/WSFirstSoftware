@@ -1,4 +1,6 @@
 
-# Blog
+# First Software .be
 
-The default [wintersmith](https://github.com/jnordberg/wintersmith) template
+A website made with [wintersmith](https://github.com/jnordberg/wintersmith).
+
+Available [here](http://www.firstsoftware.be)
