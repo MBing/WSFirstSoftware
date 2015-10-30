@@ -1,6 +1,6 @@
 ---
 title: A red herring
-author: baker
+author: its
 date: 2013-04-01
 template: article.jade
 ---

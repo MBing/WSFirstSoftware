@@ -30,26 +30,19 @@ html(lang='en')
                     li.submenu-title Andere Software
                     li.submenu-item Jurisquare
                     li.submenu-item ContrAkten
-                li.menu-title OVER ONS
+                li.menu-title.submenu OVER ONS
+                  ul.submenu-list
+                    li.submenu-item Over Intersentia Software
+                    li.submenu-item Wie is Wie
                 li.menu-title NIEUWS
                 li.menu-title.submenu SUPPORT
                   ul.submenu-list
                     li.submenu-title 
                     li.submenu-item
                 li.menu-title CONTACT
-          div.menu-icon: i.icon.icon-shopping-cart
-          div.lang-selection.menu-title.submenu NL
-            ul.submenu-list
-              li.submenu-item FR
-              li.submenu-item EN
-    div#content
-        block content
-          h2 Welcome to zombocom!
-    footer
-      div.content-wrap
-        block footer
-          section.about
-            !=contents['about.md'].html
-          section.copy
-            p &copy; #{ new Date().getFullYear() } #{ locals.owner }
-              //- please leave the "powered by" if you use the design
+          div.right-side
+            div.shopping-icon: i.icon.icon-shopping-cart
+            div.lang-selection.menu-title.submenu NL
+              ul.submenu-list
+                li.submenu-item FR
+                li.submenu-item EN
