@@ -12,10 +12,12 @@ html(lang='en')
           = locals.name
       link(rel='stylesheet', href='//fonts.googleapis.com/css?family=Open+Sans:400,400italic,700|Exo+2:400,700')
       link(rel='stylesheet', href=contents.stylus['main.styl'].url)
+      script(src="https://use.fonticons.com/a3a6fd91.js")
   body(class=bodyclass)
     header.main-header
         block header
           div.logo
+            img(src=contents.img['logo.png'].url)
           nav.main-nav
             block nav
               ul 
@@ -35,12 +37,11 @@ html(lang='en')
                     li.submenu-title 
                     li.submenu-item
                 li.menu-title CONTACT
-                li.menu-icon: i.fa.fa-cart
-                li.menu-title.pull-right.submenu NL
-                  ul.submenu-list
-                    li.submenu-item FR
-                    li.submenu-item EN
-                    li.submenu-item NL
+          div.menu-icon: i.icon.icon-shopping-cart
+          div.lang-selection.menu-title.submenu NL
+            ul.submenu-list
+              li.submenu-item FR
+              li.submenu-item EN
     div#content
         block content
           h2 Welcome to zombocom!
@@ -50,6 +51,5 @@ html(lang='en')
           section.about
             !=contents['about.md'].html
           section.copy
-            p &copy; #{ new Date().getFullYear() } #{ locals.owner } &mdash; powered by&nbsp;
-              a(href='https://github.com/jnordberg/wintersmith') Wintersmith
+            p &copy; #{ new Date().getFullYear() } #{ locals.owner }
               //- please leave the "powered by" if you use the design

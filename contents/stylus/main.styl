@@ -1,12 +1,40 @@
 @import "reset.css";
 
 /* MAIN CSS */
-body {
-  font-family: 'Open Sans', serif;
-  font-size: 16px;
-  line-height: 1.52;
-  background-color: #f3f3f3;
-  text-rendering: optimizeLegibility;
-}
+body
+	font-family: 'Open Sans', serif;
+	font-size: 16px;
+	line-height: 1.52;
+	background-color: #f3f3f3;
+	text-rendering: optimizeLegibility;
 
-// .main-header
+.main-header
+	height 70px
+	display flex
+	justify-content space-between
+	.logo
+		height 100%
+		flex 1
+		display flex
+		align-items center
+		img
+			max-height 100%
+			max-width 100%
+	.main-nav
+		background-color yellow
+		flex 5
+		ul
+			display flex
+			justify-content space-between
+	ul.submenu-list
+		display none
+	li.submenu::after
+		font-family 'Fonticons'
+		content "\f003"
+	.lang-selection
+		background-color pink
+	.slider
+		height 485px
+
+// .home
+// 	
