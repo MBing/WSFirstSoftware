@@ -1,5 +1,4 @@
-extends content
-footer.main-footer
-    block append footer
-      section.copy
-        p &copy; #{ new Date().getFullYear() } #{ locals.owner }
+block footer
+  footer.main-footer
+    section.copy
+      p &copy; #{ new Date().getFullYear() } #{ locals.owner }

@@ -1,8 +1,8 @@
 ---
-title: Code and stuff!
+title: Nieuws
 author: its
-date: 2012-10-01 15:00
-template: article.jade
+date: 2015-10-01 15:00
+template: content.jade
 ---
 
 Syntax highlighting with [highlight.js](http://softwaremaniacs.org/soft/highlight/en/).
