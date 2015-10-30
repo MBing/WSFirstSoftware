@@ -3,7 +3,6 @@
     "moment": "2.3.x",
     "typogr": "0.5.x",
     "underscore": "1.4.x",
-    "wintersmith-stylus": "^0.4.1",
     "zepto": "0.0.4"
   },
   "private": "true"

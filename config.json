@@ -7,7 +7,8 @@
   },
   "plugins": [
     "./plugins/paginator.coffee",
-    "./node_modules/wintersmith-stylus/"
+    "wintersmith-browserify",
+    "wintersmith-stylus"
   ],
   "require": {
     "moment": "moment",
