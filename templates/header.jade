@@ -1,0 +1,20 @@
+extends layout
+header.main-header
+  block header
+    div.logo
+      img(src=contents.img['logo.png'].url)
+    nav.main-nav: ul
+      block nav
+        each item in menuItems
+          li(class=item.class)= item.title
+          //-if item.class.indexOf('submenu') !== -1
+            ul.submenu-list
+              each subItem in item.submenu
+                li(class=item.class)= subItem.title
+    div.right-side
+      div.shopping-icon: i.icon.icon-shopping-cart
+      div.lang-selection.menu-title.submenu NL
+        ul.submenu-list
+          li.submenu-item FR
+          li.submenu-item EN
+  block content

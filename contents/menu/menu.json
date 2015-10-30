@@ -1,0 +1,88 @@
+{
+	"items": [
+		{
+			"title": "PRODUCTEN",
+			"class": ["submenu", "menu-title"],
+			"submenu": [
+					{
+						"title": "First Software",
+						"class": ["submenu-title"]
+					},
+					{
+						"title": "First Manager",
+						"class": ["submenu-item"]
+					},
+					{
+						"title": "First Jaarrekeningen",
+						"class": ["submenu-item"]
+					},
+					{
+						"title": "First Belastingaangifte",
+						"class": ["submenu-item"]
+					},
+					{
+						"title": "Andere Sotware",
+						"class": ["submenu-title"]
+					},
+					{
+						"title": "Jurisquare",
+						"class": ["submenu-item", "external"]
+					},
+					{
+						"title": "ContrAkten",
+						"class": ["submenu-item"]
+					},
+					{
+						"title": "Expert Seminaries",
+						"class": ["submenu-title"]
+					},
+					{
+						"title": "Overzicht",
+						"class": ["submenu-item"]
+					},
+					{
+						"title": "Boeken",
+						"class": ["submenu-title"]
+					},
+					{
+						"title": "Professioneel",
+						"class": ["submenu-item"]
+					},
+					{
+						"title": "Academisch",
+						"class": ["submenu-item"]
+					},
+					{
+						"title": "Hoger Onderwijs",
+						"class": ["submenu-item"]
+					}
+				]
+		},
+		{
+			"title": "OVER ONS",
+			"class": ["submenu", "menu-title"],
+			"submenu": {
+				"title": "Over Intersentia Software",
+				"class": []
+			}
+		},
+		{
+			"title": "NIEUWS",
+			"class": ["menu-title"],
+			"submenu": null
+		},
+		{
+			"title": "SUPPORT",
+			"class": ["submenu", "menu-title"],
+			"submenu": {
+				"title": "First Software",
+				"class": []
+			}
+		},
+		{
+			"title": "CONTACT",
+			"class": ["submenu", "menu-title"],
+			"submenu": null
+		}
+	]
+}

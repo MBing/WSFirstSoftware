@@ -1,6 +1,7 @@
 doctype html
 block vars
-  - var bodyclass = null;
+  - var bodyclass = 'wrapper';
+  - var menuItems = contents.menu['menu.json'].metadata.items;
 html(lang='en')
   head
     block head
@@ -15,34 +16,4 @@ html(lang='en')
       script(src="https://use.fonticons.com/a3a6fd91.js")
   body(class=bodyclass)
     header.main-header
-        block header
-          div.logo
-            img(src=contents.img['logo.png'].url)
-          nav.main-nav
-            block nav
-              ul 
-                li.menu-title.submenu PRODUCTEN
-                  ul.submenu-list
-                    li.submenu-title First Software
-                    li.submenu-item First Manager
-                    li.submenu-item First Jaarrekeningen
-                    li.submenu-item First Belastingaangifte
-                    li.submenu-title Andere Software
-                    li.submenu-item Jurisquare
-                    li.submenu-item ContrAkten
-                li.menu-title.submenu OVER ONS
-                  ul.submenu-list
-                    li.submenu-item Over Intersentia Software
-                    li.submenu-item Wie is Wie
-                li.menu-title NIEUWS
-                li.menu-title.submenu SUPPORT
-                  ul.submenu-list
-                    li.submenu-title 
-                    li.submenu-item
-                li.menu-title CONTACT
-          div.right-side
-            div.shopping-icon: i.icon.icon-shopping-cart
-            div.lang-selection.menu-title.submenu NL
-              ul.submenu-list
-                li.submenu-item FR
-                li.submenu-item EN
+      block header
