@@ -81,7 +81,7 @@
 		},
 		{
 			"title": "CONTACT",
-			"class": ["submenu", "menu-title"],
+			"class": ["menu-title"],
 			"submenu": null
 		}
 	]
