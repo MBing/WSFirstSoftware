@@ -1,4 +1,3 @@
 block footer
   footer.main-footer
-    section.copy
-      p &copy; #{ new Date().getFullYear() } #{ locals.owner }
+      !=contents.articles.footer['index.md'].html
