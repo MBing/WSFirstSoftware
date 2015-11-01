@@ -1,70 +1,9 @@
 @import "reset.css";
 @import "variables";
+@import "body";	
+@import 'header';
+@import 'slider';
 
-/* MAIN CSS */
-body
-	font-family: 'Open Sans', sans-serif;
-	font-size: 12px;
-	line-height: 1.52;
-	background-color: grayUltraLight;
-	text-rendering: optimizeLegibility;
-	
-/* HEADER NAV */
-.main-header
-	height 70px
-	display flex
-	justify-content space-between
-	background-color orange
-	.logo
-		height 100%
-		flex 1
-		display flex
-		align-items center
-		margin-left 10px
-		img
-			max-height 100%
-			max-width 100%
-			height 50px
-	.main-nav
-	.right-side
-		display flex
-		justify-content center
-		align-items center
-		ul
-			display flex
-			justify-content space-between
-			width 400px
-	.main-nav
-		background-color yellow
-		flex 5
-	.right-side
-		flex 0.5
-		background-color pink
-	ul.submenu-list
-		display none
-	li.submenu::after
-		font-family 'Fonticons'
-		content "\f003"
-	.lang-selection
-	.shopping-icon
-		flex 1
-		background-color blue
-	.lang-selection
-		background-color green
-	.menu-title
-	.shopping-icon
-		font-family 'Exo 2', sans-serif
-		&:hover
-		&:active
-		&:focus
-			cursor pointer
-			font-weight 700
-.slider
-	height 485px
-	background-color hotpink
-	p
-		display flex
-		justify-content center
 .firsthome
 	display flex
 	max-width 1280px
@@ -76,10 +15,4 @@ body
 		flex 0.75
 		// margin-left
 		
-.main-footer
-	display flex
-	justify-content space-between
-	align-items center
-	ul
-		flex 5
-	
+@import 'footer';
