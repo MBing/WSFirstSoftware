@@ -1,15 +1,20 @@
-block slider
-div.slider
-  !=contents.articles.home['slider.md'].html
-block firstsoftware
-div.firsthome
-  !=contents.articles.home['firstsoftware.md'].html
-block content
-div.content
-  !=contents.articles.home['index.md'].html
-block partners
-div.partners
-  !=contents.articles.home['partners.md'].html
-block bkhpakketten
-div.bkhpakketten
-  !=contents.articles.home['bkhpakketten.md'].html
+//- Use loop to generate pages so you get each block and contents of the state you are in
+//- What translation should be used
+
+#content
+  block slider
+  .slider
+    !=contents.articles.home['slider.md'].html
+  block firstsoftware
+  .firsthome
+    !=contents.articles.home['firstsoftware.md'].html
+  block content
+  .content
+    !=contents.articles.home['index.md'].html
+  block partners
+  .partnershome
+    !=contents.articles.home['partners.md'].html
+  block bkhpakketten
+  .bkhpakketten
+    !=contents.articles.home['bkhpakketten.md'].html
+  
