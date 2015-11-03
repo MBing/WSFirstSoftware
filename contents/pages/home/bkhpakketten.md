@@ -12,4 +12,3 @@ Intersentia staat open voor een verregaande samenwerking met ontwikkelaars van b
  
 Overzicht van gebruikte boekhoudpakketten cfr huidige website:
 
-<!-- bkhpakketten-overzicht.md -->

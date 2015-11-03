@@ -10,7 +10,7 @@
 		flex-wrap wrap
 		margin 0 5em
 		font-size fontSize2
-		ul
+		> ul
 			margin-top 7px
 			list-style-type square
 			list-style-position inside
@@ -24,7 +24,7 @@
 	display flex
 	justify-content space-around
 	flex-wrap wrap
-	ul
+	> ul
 		margin 20px 0
 		flex 0 1 350px
 		height 500px
@@ -35,7 +35,7 @@
 		flex-direction column
 		&:first-child
 			margin-left 0
-		li
+		> li
 			margin-left 2em
 			&:last-child
 				margin-left 0
@@ -64,6 +64,12 @@
 						cursor pointer
 						background-color grayDark
 						color white
+		ul
+			margin-top 20px
+			list-style-type square
+			li
+				margin-left 2em
+				margin-top 10px
 
 .firsthome
 .content
