@@ -7,9 +7,9 @@ template: footer.jade
 
 [support@intersentia.be](mailto:support@intersentia.be)
 
-*	SALES TERMS
-*	PRIVACY POLICY
-*	JOBS
-*	HELP
+*	[SALES TERMS](http://first.intersentia.be/assets/PDF/IntersentiaConditions_nl.pdf)
+*	[PRIVACY POLICY](/privacy)
+*	[JOBS](/jobs)
+*	[HELP](/help)
 
 +32 3 609 50 59

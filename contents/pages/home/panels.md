@@ -1,7 +1,7 @@
 ---
 title: Panels Home
 author: its
-date: 2015-02-01
+date: 2015-02-03
 template: content.jade
 ---
 
