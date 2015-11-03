@@ -6,6 +6,7 @@ module.exports = (env, callback) ->
   defaults =
     template: 'index.jade' # template that renders pages
     articles: 'articles' # directory containing contents to paginate
+    pages: 'pages' # directory containing contents to paginate
     first: 'index.html' # filename/url for first page
     filename: 'page/%d/index.html' # filename for rest of pages
     perPage: 2 # number of articles per page
