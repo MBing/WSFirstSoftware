@@ -1,52 +1,47 @@
-/* HEADER NAV */
+/* HEADER STYLES */
 .main-header
 	flex none
 	height 70px
 	display flex
 	justify-content space-between
 	background-color grayUltraLight
+	.main-nav
+	.right-side
+	.logo
+		display flex
+		align-items center
 	.logo
 		height 100%
 		flex 1
-		display flex
-		align-items center
 		margin-left 10px
 		img
 			max-height 100%
 			max-width 100%
 			height 50px
 	.main-nav
-	.right-side
-		display flex
 		justify-content center
-		align-items center
 		ul
 			display flex
 			justify-content space-between
-			width 400px
+			min-width 400px
 	.main-nav
-		// background-color yellow
 		flex 5
 	.right-side
 		flex 0.5
-		// background-color pink
-	ul.submenu-list
+	.submenu-list
 		display none
-	li.submenu::after
+	.submenu::after
 		font-family fontIcon
 		content "\f003"
 	.lang-selection
 	.shopping-icon
 		flex 1
-		// background-color blue
-	.lang-selection
-		// background-color green
 	.menu-title
 	.shopping-icon
 		font-family fontHeader, sans-serif
+		text-transform uppercase
 		&:hover
 		&:active
 		&:focus
 			cursor pointer
-			// font-weight 700
 			text-decoration underline

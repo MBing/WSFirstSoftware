@@ -1,16 +1,78 @@
 .firsthome
 	display flex
 	align-items center
-	margin 0 auto
+	img
+		height 250px
+		width 460px
+		object-fit contain
 	.first-description
 		display flex
 		flex-wrap wrap
-		margin-left 10em
-		margin-right 2em
-		font-size 14px
+		margin 0 5em
+		font-size fontSize2
+		ul
+			margin-top 7px
+			list-style-type square
+			list-style-position inside
+			text-indent -1em
+			padding-left 1em
+			font-size fontSize3
+			line-height 1.8
+
+.panels
+	background-color white
+	display flex
+	justify-content space-around
+	flex-wrap wrap
+	ul
+		margin 20px 0
+		flex 0 1 350px
+		height 500px
+		background-color grayUltraLightBack
+		box-shadow boxShadow
+		justify-content space-between
+		display flex
+		flex-direction column
+		&:first-child
+			margin-left 0
+		li
+			margin-left 2em
+			&:last-child
+				margin-left 0
+			&:first-child
+			&:last-child a
+				margin-left 0
+				padding 1rem 1.5rem
+				background-color grayDark
+				color white
+				font-size fontSize1
+				font-family fontHeader
+				text-align center
+				text-transform uppercase
+			&:last-child a
+					flex 1
+					background-color white
+					font-size fontSize2
+					color grayDark
+					text-decoration none
+					display block
+					border-top 1px solid grayDark
+					&:hover
+					&:active
+					&:focus
+						border-top 1px solid grayUltraLightBack
+						cursor pointer
+						background-color grayDark
+						color white
+
 .firsthome
 .content
 .bkhpakketten
 	background-color white
 .partnershome
 	background-color grayUltraLight
+
+.bkhpakketten
+.partnershome
+	p
+		margin 0 5em

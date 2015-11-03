@@ -7,7 +7,13 @@
     !=contents.articles.home['slider.md'].html
   block firstsoftware
   .firsthome
-    !=contents.articles.home['firstsoftware.md'].html
+    .first-logo
+      !=contents.articles.home['firstlogo.md'].html
+    .first-description
+      !=contents.articles.home['firstsoftware-description.md'].html
+  block panels
+  .panels
+    !=contents.articles.home['panels.md'].html
   block content
   .content
     !=contents.articles.home['index.md'].html
@@ -17,4 +23,3 @@
   block bkhpakketten
   .bkhpakketten
     !=contents.articles.home['bkhpakketten.md'].html
-  
