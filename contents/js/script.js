@@ -3,9 +3,12 @@
     var partnerH2 = $(".partnershome h2");
 
     /* MENU */
-    $(".main-header").on('click', '.submenu.menu-title', function (e) {
-        console.log($(this));
-        $(".submenu-panel").toggleClass('slide-open');
+    $(".main-header").on('click', '.menu-title', function (e) {
+        if($(this).hasClass('submenu')) {
+            $(".submenu-panel").addClass('slide-open');
+        } else {
+            $(".submenu-panel").removeClass('slide-open');
+        }
     });
 
 

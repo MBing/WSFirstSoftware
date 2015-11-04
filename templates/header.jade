@@ -7,10 +7,6 @@ block header
       block nav
         each item in menuItems
           li(class=item.class)=item.title+" "
-          //-if item.class.indexOf('submenu') !== -1
-            ul.submenu-list
-              each subItem in item.subitem
-                li(class=subItem.class)= subItem
     div.right-side
       div.shopping-icon: i.icon.icon-shopping-cart
       div.lang-selection.menu-title.submenu NL
