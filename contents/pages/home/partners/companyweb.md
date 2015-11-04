@@ -6,7 +6,7 @@ template: content.jade
 ---
 
 
-Wat vindt u terug in Companyweb?
+**Wat vindt u terug in Companyweb?**
 
 *	Dagelijks bijgewerkte vennootschapsgegevens
 *	Jaarrekeningen- Financiële rapporten (met ratioanalyse)

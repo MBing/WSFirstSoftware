@@ -1,0 +1,8 @@
+block submenu
+    .submenu-panel Tryout
+        each item in menuItems
+            li(class=item.class)=item.title + " "
+            //-if item.class.indexOf('submenu') !== -1
+              ul.submenu-list
+                each subItem in item.subitem
+                  li(class=subItem.class)= subItem
