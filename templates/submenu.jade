@@ -1,10 +1,14 @@
 extends layout
 block submenu
-    .submenu-panel Tryout
-        each item in menuItems
-            li(class=item.class)=item.title + " "
-            - console.log(item.submenu);
-            - if (!!~item.class.indexOf('submenu'))
-              ul(id=item.title.toLowerCase(), class='submenu-list')
-                each subItem in item.submenu
-                  li(class=subItem.class)= subItem.title
+  .submenu-panel
+    each item in menuItems
+      //li(class=item.class)=item.title + " "
+      if (!!~item.class.indexOf('submenu'))
+        ul(id=item.title.toLowerCase().replace(" ", "-"), class='submenu-list')
+          each subMenu in item.submenu
+            ul.submenu-section
+              li(class=subMenu.class)!= subMenu.title
+                if (subMenu.subItems)
+                  each subItem in subMenu.subItems
+                    if (subItem.class)
+                      li(class=subItem.class)!= subItem.title

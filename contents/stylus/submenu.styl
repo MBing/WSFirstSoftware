@@ -1,8 +1,36 @@
 .submenu-panel
-  transition height 1s ease
-  //display none
+  transition all 1s ease
   background-color grayDark
   color white
   height 0
+  .submenu-list
+    margin 0 5em
+    //display flex
+    display none
+    justify-content space-around
+    align-items flex-start
+    &.flex
+      display flex
+    .submenu-section
+      flex 0 1 250px
   &.slide-open
+    padding 20px 0
     height 300px
+  > li
+    display none
+  > ul
+    font-family fontHeader
+    .submenu-title
+      font-size fontSize2
+      border-bottom 1px solid white
+    .submenu-item
+      font-size fontSize3
+      &:hover
+      &:active
+      &:focus
+        text-decoration underline
+        cursor pointer
+.external:after
+  font-family fontIcon
+  content '\f00a'
+  font-size fontSize5

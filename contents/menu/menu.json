@@ -6,65 +6,88 @@
 			"submenu": [
 					{
 						"title": "First Software",
-						"class": ["submenu-title"]
-					},
-					{
-						"title": "First Manager",
-						"class": ["submenu-item"]
-					},
-					{
-						"title": "First Jaarrekeningen",
-						"class": ["submenu-item"]
-					},
-					{
-						"title": "First Belastingaangifte",
-						"class": ["submenu-item"]
+						"class": ["submenu-title"],
+						"subItems": [
+							{
+								"title": "First Manager",
+								"class": ["submenu-item"]
+							},
+							{
+								"title": "First Jaarrekeningen",
+								"class": ["submenu-item"]
+							},
+							{
+								"title": "First Belastingaangifte",
+								"class": ["submenu-item"]
+							},
+							{
+								"title": "First Fiches &amp; Bedrijfsvoorheffing",
+								"class": ["submenu-item"]
+							},
+							{
+								"title": "First Vaste Activa",
+								"class": ["submenu-item"]
+							}
+						]
 					},
 					{
 						"title": "Andere Sotware",
-						"class": ["submenu-title"]
-					},
-					{
-						"title": "Jurisquare",
-						"class": ["submenu-item", "external"]
-					},
-					{
-						"title": "ContrAkten",
-						"class": ["submenu-item"]
+						"class": ["submenu-title"],
+						"subItems": [
+							{
+								"title": "Jurisquare",
+								"class": ["submenu-item", "external"],
+								"link": "http://www.jurisquare.be"
+							},
+							{
+								"title": "ContrAkten",
+								"class": ["submenu-item"]
+							}
+						]
 					},
 					{
 						"title": "Expert Seminaries",
-						"class": ["submenu-title"]
+						"class": ["submenu-title"],
+						"subItems": [
+							{
+								"title": "Overzicht",
+								"class": ["submenu-item", "external"],
+								"link": "http://intersentia.be/nl/studiedagen"
+							}
+						]
 					},
 					{
-						"title": "Overzicht",
-						"class": ["submenu-item"]
-					},
-					{
-						"title": "Boeken",
-						"class": ["submenu-title"]
-					},
-					{
-						"title": "Professioneel",
-						"class": ["submenu-item"]
-					},
-					{
-						"title": "Academisch",
-						"class": ["submenu-item"]
-					},
-					{
-						"title": "Hoger Onderwijs",
-						"class": ["submenu-item"]
+						"title": "Uitgeverij",
+						"class": ["submenu-title"],
+						"subItems": [
+							{
+								"title": "Intersentia",
+								"class": ["submenu-item", "external"],
+								"link": "http://www.intersentia.be"
+							}
+						]
 					}
 				]
 		},
 		{
 			"title": "OVER ONS",
 			"class": ["submenu", "menu-title"],
-			"submenu": {
-				"title": "Over Intersentia Software",
-				"class": []
-			}
+			"submenu": [
+					{
+						"title": "Over Ons",
+						"class": ["submenu-title"],
+						"subItems": [
+							{
+								"title": "Over Intersentia",
+								"class": ["submenu-item"]
+							},
+							{
+								"title": "Wie is wie",
+								"class": ["submenu-item"]
+							}
+						]
+					}
+				]
 		},
 		{
 			"title": "NIEUWS",
@@ -74,10 +97,26 @@
 		{
 			"title": "SUPPORT",
 			"class": ["submenu", "menu-title"],
-			"submenu": {
-				"title": "First Software",
-				"class": []
-			}
+			"submenu": [
+                {
+                  "title": "Support",
+                  "class": ["submenu-title"],
+                  "subItems": [
+                    {
+                      "title": "Downloads, nieuwe releases &amp; patches",
+                      "class": ["submenu-item"]
+                    },
+                    {
+                      "title": "Documentatie centrum",
+                      "class": ["submenu-item"]
+                    },
+                    {
+                      "title": "Contacteer support",
+                      "class": ["submenu-item"]
+                    }
+                  ]
+                }
+              ]
 		},
 		{
 			"title": "CONTACT",

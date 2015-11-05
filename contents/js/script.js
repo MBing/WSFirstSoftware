@@ -4,7 +4,11 @@
 
     /* MENU */
     $(".main-header").on('click', '.menu-title', function (e) {
-        if($(this).hasClass('submenu')) {
+        var menuClicked = $(this).text().toLowerCase().trim().replace(" ", "-");
+        console.log(menuClicked);
+        $(".submenu-list.flex").removeClass('flex');
+        $("#" + menuClicked).addClass('flex');
+        if($(this).hasClass("submenu")) {
             $(".submenu-panel").addClass('slide-open');
         } else {
             $(".submenu-panel").removeClass('slide-open');
