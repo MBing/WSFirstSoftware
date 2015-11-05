@@ -7,7 +7,9 @@ block header
       block nav
         each item in menuItems
           li(class=item.class)
-            span=item.title
+            if(!!~item.link)
+            a(href=item.link)
+              span=item.title
     div.right-side
       div.shopping-icon: i.icon.icon-shopping-cart
       div.lang-selection.menu-title

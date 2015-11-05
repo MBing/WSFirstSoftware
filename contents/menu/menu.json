@@ -100,7 +100,8 @@
 		{
 			"title": "NIEUWS",
 			"class": ["menu-title"],
-			"submenu": null
+			"submenu": null,
+            "link": "/nieuws"
 		},
 		{
 			"title": "SUPPORT",
@@ -132,7 +133,8 @@
 		{
 			"title": "CONTACT",
 			"class": ["menu-title"],
-			"submenu": null
+			"submenu": null,
+            "link": "/contact"
 		}
 	]
 }
