@@ -11,4 +11,6 @@ block submenu
                 if (subMenu.subItems)
                   each subItem in subMenu.subItems
                     if (subItem.class)
-                      li(class=subItem.class)!= subItem.title
+                      li(class=subItem.class): a(href=subItem.link)
+                        i.icon.icon-square
+                        != subItem.title

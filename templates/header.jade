@@ -6,10 +6,12 @@ block header
     nav.main-nav: ul
       block nav
         each item in menuItems
-          li(class=item.class)=item.title+" "
+          li(class=item.class)
+            span=item.title
     div.right-side
       div.shopping-icon: i.icon.icon-shopping-cart
-      div.lang-selection.menu-title.submenu NL
-        ul.submenu-list
-          li.submenu-item FR
-          li.submenu-item EN
+      div.lang-selection.menu-title
+        span=langs.items[langs.selected]
+        ul.lang-list
+          each lang in langs.items
+            li=lang

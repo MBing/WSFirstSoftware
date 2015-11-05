@@ -30,13 +30,14 @@
 		flex 0.5
 	.submenu-list
 		display none
-	.submenu::after
-		font-family fontIcon
-		content "\f003"
+	.submenu
+	.lang-selection
+		&:after
+			content "c"
 	.lang-selection
 	.shopping-icon
 		flex 1
-	.menu-title
+	.menu-title span
 	.shopping-icon
 		font-family fontHeader, sans-serif
 		text-transform uppercase
@@ -45,3 +46,24 @@
 		&:focus
 			cursor pointer
 			text-decoration underline
+	.lang-selection
+		position relative
+		.lang-list
+			display none
+			position absolute
+			top 25px
+			right 0
+			width 75px
+			flex-direction column
+			align-items: center;
+			justify-content: space-around;
+			height 100px
+			background-color grayDark
+			color white
+			text-transform uppercase
+			text-align center
+			&.flex
+				display flex
+			li:hover
+				text-decoration underline
+				cursor pointer

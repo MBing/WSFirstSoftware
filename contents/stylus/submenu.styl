@@ -5,14 +5,13 @@
   height 0
   .submenu-list
     margin 0 5em
-    //display flex
     display none
     justify-content space-around
     align-items flex-start
     &.flex
       display flex
     .submenu-section
-      flex 0 1 250px
+      flex 0 1 275px
   &.slide-open
     padding 20px 0
     height 300px
@@ -24,13 +23,19 @@
       font-size fontSize2
       border-bottom 1px solid white
     .submenu-item
-      font-size fontSize3
-      &:hover
-      &:active
-      &:focus
-        text-decoration underline
-        cursor pointer
+      line-height 2.2
+      a
+        font-size fontSize3
+        color white
+        text-decoration none
+        &:hover
+        &:active
+        &:focus
+          color white
+          text-decoration underline
+      i
+        padding-right 10px
+        color redRegular
 .external:after
-  font-family fontIcon
-  content '\f00a'
-  font-size fontSize5
+  content ' g'
+  font-size fontSize3
