@@ -60,7 +60,7 @@ template: content.jade
 *   Real-time simuleren en bijsturen
 *   Eenvoudig importeren en exporteren van gegevens
 *   Uitgebreide rapportering
-    -   Aanwervingen &amp; afschrijvingstabellen
-    -   Jaaroverzicht &amp; tabel der bedrijfsmiddelen
+*   Aanwervingen & afschrijvingstabellen
+*   Jaaroverzicht & tabel der bedrijfsmiddelen
 *   [MEER INFO](#)
 
