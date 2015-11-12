@@ -19,13 +19,14 @@
 			max-width 100%
 			height 50px
 	.main-nav
+		flex 5
 		justify-content center
 		ul
 			display flex
 			justify-content space-between
 			min-width 400px
-	.main-nav
-		flex 5
+			li
+				flex none
 	.right-side
 		flex 0.5
 	.submenu-list
@@ -42,6 +43,7 @@
 	.menu-title span
 	.menu-title a
 	.shopping-icon
+		//flex 1 0 100%
 		font-family fontHeader, sans-serif
 		text-transform uppercase
 		text-decoration none
@@ -49,6 +51,7 @@
 		&:hover
 		&:active
 		&:focus
+			text-shadow 0.5px 0.5px 0 grayLight
 			cursor pointer
 			text-decoration underline
 	.lang-selection
