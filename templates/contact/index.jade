@@ -1,1 +1,9 @@
-<div>TEST</div>
+#content-contact.page
+    block contact
+    .contact-address
+        !=contents.pages.contact['index.md'].html
+
+    .button
+        !=contents.pages.contact['button.md'].html
+    .contact-subtext
+        !=contents.pages.contact['subtext.md'].html

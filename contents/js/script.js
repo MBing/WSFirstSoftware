@@ -5,6 +5,18 @@
     /* MENU */
     /********/
 
+    /* Main Menu Links*/
+    $('.menu-title > a').on('click', function () {
+        $('.page')
+            .removeClass('show')
+            .hide();
+        $($(this).attr('href')).show();
+        $($(this).attr('href')).addClass('show');
+    });
+    /* Submenu Links */
+    $('.submenu-item > a').on('click', function () {
+        console.log($(this).attr('href'));
+    });
     /* SubMenu Toggle*/
     $(".main-header").on('click', '.submenu', function (e) {
         var menuClicked = $(this).text().toLowerCase().trim().replace(" ", "-");

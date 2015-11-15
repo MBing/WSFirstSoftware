@@ -86,12 +86,12 @@
 							{
 								"title": "Over Intersentia",
 								"class": ["submenu-item"],
-                                "link": ""
+                                "link": "#about"
 							},
 							{
 								"title": "Wie is wie",
 								"class": ["submenu-item"],
-                                "link": ""
+                                "link": "#staff"
 							}
 						]
 					}
@@ -101,7 +101,7 @@
 			"title": "NIEUWS",
 			"class": ["menu-title"],
 			"submenu": null,
-            "link": "/nieuws"
+            "link": "#news"
 		},
 		{
 			"title": "SUPPORT",
@@ -134,7 +134,7 @@
 			"title": "CONTACT",
 			"class": ["menu-title"],
 			"submenu": null,
-            "link": "/contact"
+            "link": "#contact"
 		}
 	]
 }

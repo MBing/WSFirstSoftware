@@ -1,7 +1,9 @@
 //- Use loop to generate pages so you get each block and contents of the state you are in
 //- What translation should be used
+each partner in contents.pages.home.partners
+  div!=[partner].html
 
-#content
+#home.page
   block slider
   .slider
     !=contents.pages.home['slider.md'].html
@@ -50,3 +52,11 @@
     !=contents.pages.home['references.md'].html
   .referencelogos
     !=contents.pages.home['referencelogos.md'].html
+#contact.page
+  block contact
+  .contact-address
+    !=contents.pages.contact['index.md'].html
+  .button
+    !=contents.pages.contact['button.md'].html
+  .contact-subtext
+    !=contents.pages.contact['subtext.md'].html
