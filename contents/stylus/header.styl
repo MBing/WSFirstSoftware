@@ -1,10 +1,13 @@
 /* HEADER STYLES */
 .main-header
+	position fixed
+	width 1280px
 	flex none
 	height 70px
 	display flex
 	justify-content space-between
 	background-color grayUltraLight
+	box-shadow 0px 2px 1px 0px rgba(50, 50, 50, 0.75)
 	.main-nav
 	.right-side
 	.logo
@@ -43,7 +46,6 @@
 	.menu-title span
 	.menu-title a
 	.shopping-icon
-		//flex 1 0 100%
 		font-family fontHeader, sans-serif
 		text-transform uppercase
 		text-decoration none
@@ -51,9 +53,8 @@
 		&:hover
 		&:active
 		&:focus
-			text-shadow 0.5px 0.5px 0 grayLight
+			text-shadow textShadow
 			cursor pointer
-			text-decoration underline
 	.lang-selection
 		position relative
 		.lang-list
@@ -73,5 +74,5 @@
 			&.flex
 				display flex
 			li:hover
-				text-decoration underline
+				text-shadow textShadowLight
 				cursor pointer
